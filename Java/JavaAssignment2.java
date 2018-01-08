@@ -16,6 +16,8 @@ public class JavaAssignment2 {
      * @param  input It is the input string to be checked.
      * @return true : if all characters are present in input, else false.
      *
+     * Time Complexity : O(N) and Space Complexity : O(26)
+     * where N is input string length.
      */
     static boolean isAllCharactersPresent(String input) {
 
