@@ -17,8 +17,8 @@ public class JavaAssignmentDay8 {
     //Remember to pass absolute file path via CLI Arguments
     public static void main(String[] args) throws IOException {
 
-        if(null == args) {
-            System.out.println("Pass Absolute File Path Via Arguments");
+        if(null == args || args.length == 0) {
+            System.out.println("Pass Absolute File Path Via Arguments... Exiting");
             System.exit(0);
         }
 
